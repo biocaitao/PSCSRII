@@ -1,5 +1,5 @@
 #please install miRNAtap, made4, plotly packages for the coinertia plot
-#also may need Seurat, pracma,  dplyr package 
+#also may need Seurat, pracma, htmlwidgets, dplyr packages 
 #setwd("~/data/CaiT/sRNA/PSCSRII/Revision2/")
 library(Seurat)
 library(pracma)
