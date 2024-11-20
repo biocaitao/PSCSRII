@@ -15,10 +15,10 @@ library(pracma)
 #data_rna<-as.matrix(AverageExpression(cells2)$RNA)
 
 # or directly used the processed data
-mirna<-read.csv( "~/data/CaiT/sRNA/PSCSRII/Revision2/data_mir.csv")
+mirna<-read.csv( "data_mir.csv")
 data_mir<-as.matrix(mirna[,2:dim(mirna)[2]])
 rownames(data_mir)<-mirna[,1]
-rna<-read.csv( "~/data/CaiT/sRNA/PSCSRII/Revision2/data_rna.csv")
+rna<-read.csv( "data_rna.csv")
 data_rna<-as.matrix(rna[,2:dim(rna)[2]])
 rownames(data_rna)<-rna[,1]
 
